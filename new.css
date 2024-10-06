@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+}
+
+
+#header-nav{
+    height: auto;
+    box-shadow: 4px 4px 2px 2px rgb(191, 191, 191);
+  
+}
+
+
+.control{
+    border: none;
+    top: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    padding-left: 5px;
+    /* background-color: bisque; */
+    height: 30px;
+    color: #B7B7B7;
+}
+
+.nav-icons{
+    /* background-color: blue; */
+    color: #686D76;
+}
+
+.right-container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-container i{
+    cursor: pointer;
+}
+
+#main-body{
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+
+.side-nav{
+    /* position: fixed; */
+    z-index: 1;
+    /* top: 0; */
+    left:0;
+    /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
+
+    height: 850px;
+    /* width: 200px; */
+    background-color: #0F67B1;
+    justify-content:flex-start;
+    align-items: center;
+    padding:15px 10px 10px 10px;
+    gap: 10px;
+    color: white;
+
+}   
+.side-nav > img{
+    height: 150px;
+    width: 130px;
+}
+
+
+
+
+.add-box{
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    top:620px;
+    left: 20px;
+    bottom: 8px;
+    color: white;
+    /* background-color: #686D76; */
+    width: 150px;
+    padding: 0px;
+    height: auto;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+
+
+
+.add-box > i {
+    height: 100%; 
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.word {
+    text-align: center;
+    z-index: 1;
+    flex: 1; 
+}
+
+.rightside-nav{
+    position: relative;
+    background-color: white;
+    height: 850px;
+    width: 100%;
+
+}
+
+
+.nav-bar{
+
+    border-radius: 2px;
+    border: 0.5px solid black;
+}
+
+.nav-bar .active{
+    background-color: rgb(250, 76, 250);
+    color: white;
+}
+
+nav.pills{
+    height: fit-content;
+}
+
+
+
+/* For Active and Inactive Status Indicators */
+.status {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.status.active {
+    background-color: green;
+}
+
+.status.inactive {
+    background-color: red;
+}
+
+
+.pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination {
+    margin: 0;
+}
+
+
+
+form h5 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.new-benficiary{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #d4d4d4;
+}
